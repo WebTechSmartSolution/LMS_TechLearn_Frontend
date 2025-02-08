@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { jsPDF } from 'jspdf'; // Import jsPDF
+import jsPDF from 'jspdf';
+ // Import jsPDF
 import './Quiz.css';
 
 const Quiz = () => {
